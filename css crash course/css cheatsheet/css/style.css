@@ -1,0 +1,187 @@
+/*
+*{
+    padding : 0;
+    margin:0;
+    this stuff applies to the whole doucment and overruns them
+    used as reset
+}
+*/
+
+body {
+  background-color: #f4f4f9;
+  color: rgb(0, 0, 0);
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+
+  line-height: 1.3em;
+  /*change how close the lines are*/
+
+  margin: 0em;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+.clr {
+  clear: both;
+}
+
+.button {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 3px;
+  font-size: medium;
+}
+.button :hover {
+  background: red;
+  color: white;
+}
+.box-1 {
+  background-color: #333333;
+  color: #ffffff;
+
+  /*border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-top: 5px red solid;
+  border-bottom: 5px red solid;
+  
+  same as below shorthand*/
+
+  border: 5px red solid;
+  border-width: 5px;
+  border-style: solid;
+
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.box-1 h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 600;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+
+.box-2 {
+  border: 3px dotted #333333;
+  padding: 20px 0px;
+  margin: 20px 0px;
+}
+
+.categories {
+  border: 4px hotpink solid;
+  padding: 10px;
+  border-radius: 19px;
+}
+
+.categories h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.categories ul {
+  padding: 15px;
+  list-style: none;
+}
+
+a {
+  /*applies to any link in the page*/
+  text-decoration: none;
+  color: #333333;
+}
+
+a:active {
+  color: yellow;
+}
+a:hover {
+  color: hotpink;
+}
+
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 1px #333333;
+}
+
+.my-form {
+  padding: 20px 10px;
+}
+
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+
+.my-form label {
+  display: block;
+}
+
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 3px;
+  width: 100%;
+}
+
+.block {
+  float: left;
+  width: 33.3%;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+  font-size: small;
+}
+
+#main-block {
+  float: left;
+  width: 70%;
+}
+
+#side-bar {
+  float: right;
+  width: 30%;
+  background-color: #333;
+  color: #ffffff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.p-box {
+  width: 600px;
+  height: 500px;
+  border: 1px solid #000000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url("../css/bg-image.jpg");
+  background-position: 100px 200px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.p-box h1 {
+  position: absolute;
+  top: 40px;
+  left: 200px;
+}
+.p-box h2 {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+
+.fix-me {
+  position: fixed;
+  top: 40px;
+}
+
+.my-list li:first-child {
+  background: rgb(144, 99, 99);
+}
+
+.my-list li:nth-child(5) {
+  background: yellow;
+}
+/*this is pseudo calss*/
