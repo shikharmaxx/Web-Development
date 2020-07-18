@@ -1,2 +1,2 @@
 # Web-Development
-Repository contains projects and files i made while learning web development
+Repository contains projects and files related to web development
